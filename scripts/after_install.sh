@@ -8,6 +8,6 @@ mkdir -p storage bootstrap/cache
 
 
 # Set permissions (Ubuntu’s Apache user is www-data)
-sudo chown -R root:root storage bootstrap/cache
+sudo chown -R www-data:www-data storage bootstrap/cache
 sudo chmod -R 775 storage bootstrap/cache
 
